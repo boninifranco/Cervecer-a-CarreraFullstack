@@ -1,0 +1,83 @@
+html{
+    height: 100%;
+    
+}
+.Home{
+    display: inline-block;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+   
+}
+.Header{
+    background-color: red;
+    top: 0%;
+    margin-top: 0px;
+    width: 100%;
+    min-width: 100vh;
+}
+.BodyHome{
+    min-height: 90vh;
+    max-height: 1080px;
+    background-color: rgb(229, 255, 0);
+    color: black;
+}
+.Contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    background-image: url('./img/d5db25c9e9f083706a7bfebb98239e93.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.PrimerCarrusel{
+    height: 50vh;
+    margin: 10px auto;
+    background-color: black;
+    color: white;
+    width: 90%;
+    opacity: .7;
+    border-radius: 10px;
+    box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+    -webkit-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+    -moz-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+}
+.ContenedorTarjetas,.VideoIlustrativo,.PrimerCarrusel{
+    cursor: pointer;
+}
+.ContenedorTarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+    height: 100px;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+    -webkit-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+    -moz-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+}
+.VideoIlustrativo{
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    margin: 0px auto;
+    color: white;
+    width: 90%;
+    opacity: .9;
+    box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+-webkit-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+-moz-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
+    
+}
+.FooterHome{
+    
+    background-color: green;
+    position: static;
+    height: 5vh;
+    bottom:0vh;
+    width: 100%;
+}
