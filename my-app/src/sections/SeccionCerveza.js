@@ -1,5 +1,6 @@
 import React from "react";
 import CardComponet from "../componets/Card";
+import "./SeccionCerveza.css";
 
 const SeccionCerveza = () => {
     const cervezas = [
@@ -9,7 +10,8 @@ const SeccionCerveza = () => {
 
     return(
         <div>
-        <h2>Sección Cervezas</h2>
+        <h2>Nuestras Cervezas</h2>
+        <button>Descrición</button>
         {cervezas.map ((cervezas, index)=> (
             <CardComponet
             key={index}
