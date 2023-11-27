@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Inicio } from "./pages/inicio/Inicio";
+import { Inicio } from "./pages/principal/Home";
 import { Contacto } from "./pages/contacto/Contacto";
 import { Header } from "./shared/header/Header";
 import { Footer } from "./shared/footer/Footer";
