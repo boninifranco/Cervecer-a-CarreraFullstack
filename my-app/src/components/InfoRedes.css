@@ -1,0 +1,8 @@
+body, html {
+    background-color: black;
+    color: white;
+}
+.componentInfo{
+    width: 50%;
+    height: 60%;
+}
