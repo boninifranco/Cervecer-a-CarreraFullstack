@@ -1,8 +1,16 @@
 import React from 'react';
-import "./CardComponet.css";
+import "./CardComponent.css";
 
-const CardComponet = (props) => {
+const CardComponent = (props) => {
     const {cerveza, descripción, imagen } = props;
+
+    const handleDescripcion = (descripción) => {
+        console.log (`Mostrando descripción: ${descripción}`);
+    }
+
+    const handleCompra = (cerveza) => {
+        console.log (`Comprando cerveza: ${cerveza}`);
+    };
 
     return (
         <div className="card">
@@ -15,4 +23,4 @@ const CardComponet = (props) => {
     );
 };
 
-export default CardComponet; 
+export default CardComponent; 

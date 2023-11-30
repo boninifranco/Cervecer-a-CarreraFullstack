@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 
 export const Formulario = () => {
   const [datos, setDatos] = useState({
@@ -16,7 +16,7 @@ export const Formulario = () => {
   };
 
   const enviarDatos = (e) => {
-    e.preventDefault;
+    e.preventDefault();
     //VER DONDE ENVIAR LOS DATOS
   };
 
