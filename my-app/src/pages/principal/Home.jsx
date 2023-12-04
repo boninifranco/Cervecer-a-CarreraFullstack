@@ -1,6 +1,6 @@
 import React from "react";
 
-export const  Home=()=>{ 
+const Home=()=>{
     return <div className='Home'>
                     <div className="Header">Navegador Web</div>
                     <div className="BodyHome">

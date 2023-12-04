@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
-import CardComponent from "../components/Card"; 
-import mockData from "./package-lock.json"; 
+import React from "react";
+import CardComponet from "../componets/Card";
 import "./SeccionCerveza.css";
 
 const SeccionCerveza = () => {

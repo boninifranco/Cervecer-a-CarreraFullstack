@@ -1,13 +1,17 @@
 import { InfoRedes } from "../../components/InfoRedes";
 import { Formulario } from "../../components/Formulario";
+import "./contacto.css";
+import { Carrusel } from "../../components/Carrusel";
 
 export const Contacto = () => {
   return (
     <>
-      <h1>¡Contactanos!</h1>
-      <h1>Carrusel</h1>
-      <InfoRedes />
-      <Formulario></Formulario>
+      <Carrusel />
+      {/*<h1 className="contactanos">¡Contactanos!</h1>*/}
+      <div className="contact-container">
+        <InfoRedes className="infoRedes" />
+        <Formulario className="form-container"></Formulario>
+      </div>
     </>
   );
 };
