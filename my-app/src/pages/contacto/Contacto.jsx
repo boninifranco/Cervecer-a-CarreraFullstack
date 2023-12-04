@@ -1,6 +1,6 @@
 import { InfoRedes } from "../../components/InfoRedes";
 import { Formulario } from "../../components/Formulario";
-import "./contacto.css";
+import "./Contacto.css";
 import { Carrusel } from "../../components/Carrusel";
 
 export const Contacto = () => {

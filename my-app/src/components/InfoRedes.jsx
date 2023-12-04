@@ -1,4 +1,4 @@
-import "./infoRedes.css";
+import './InfoRedes.css'
 import instagram from "../assets/img/instagram.png";
 import whatsapp from "../assets/img/whatsapp.png";
 import mail from "../assets/img/mail.png";
