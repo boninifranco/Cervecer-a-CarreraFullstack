@@ -1,13 +1,13 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import './formulario.css';
 
 export const Formulario = () => {
   const [datos, setDatos] = useState({
-    nombre: "",
-    email: "",
-    asunto: "",
-    texto: "",
-  });
+    nombre:"",
+    email:"",
+    asunto:"",
+    texto:"",
+  })
 
   const handleInputChange = (e) => {
     setDatos({
