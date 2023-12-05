@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import './formulario.css';
 
 export const Formulario = () => {
@@ -19,7 +19,6 @@ export const Formulario = () => {
   const enviarDatos = (e) => {
     e.preventDefault();
     console.log(datos);
-    
   };
 
   return (
