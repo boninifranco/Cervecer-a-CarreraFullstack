@@ -6,6 +6,7 @@ import { Header } from "./shared/header/Header";
 import { Footer } from "./shared/footer/Footer";
 import "./App.css";
 import "./pages/principal/Home.css";
+import SeccionCerveza from "./pages/productos/SeccionCerveza";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Routes>
               <Route path="/inicio" element={<Home></Home>}></Route>
               <Route path="/contacto" element={<Contacto></Contacto>}></Route>
+              <Route path="/cerveza" element={<SeccionCerveza></SeccionCerveza>}></Route>
             </Routes>
           </BrowserRouter>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import "./Carrusel.css";
-import imagen1 from '../assets/img/cerveceria1.jpeg'
-import imagen2 from '../assets/img/cerveceria2.jpg'
-import imagen3 from '../assets/img/cerveceria3.png'
+import imagen1 from '../../assets/img/cerveceria1.jpeg'
+import imagen2 from '../../assets/img/cerveceria2.jpg'
+import imagen3 from '../../assets/img/cerveceria3.png'
 
 export const Carrusel = () => {
   return (
