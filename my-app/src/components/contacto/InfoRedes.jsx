@@ -1,8 +1,8 @@
 import './InfoRedes.css'
-import instagram from "../assets/img/instagram.png";
-import whatsapp from "../assets/img/whatsapp.png";
-import mail from "../assets/img/mail.png";
-import ubicacion from "../assets/img/ubicacion.png";
+import instagram from "../../assets/img/instagram.png";
+import whatsapp from "../../assets/img/whatsapp.png";
+import mail from "../../assets/img/mail.png";
+import ubicacion from "../../assets/img/ubicacion.png";
 
 export const InfoRedes = () => {
   return (

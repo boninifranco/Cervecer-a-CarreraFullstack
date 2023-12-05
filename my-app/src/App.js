@@ -7,6 +7,7 @@ import { Footer } from "./shared/footer/Footer";
 import Nosotros from "./pages/nosotros/Nosotros";
 import "./App.css";
 import "./pages/principal/Home.css";
+import SeccionCerveza from "./pages/productos/SeccionCerveza";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/Nosotros" element={<Nosotros></Nosotros>}></Route>
               <Route path="/inicio" element={<Home></Home>}></Route>
               <Route path="/contacto" element={<Contacto></Contacto>}></Route>
+              <Route path="/cerveza" element={<SeccionCerveza></SeccionCerveza>}></Route>
             </Routes>
           </BrowserRouter>
         </div>

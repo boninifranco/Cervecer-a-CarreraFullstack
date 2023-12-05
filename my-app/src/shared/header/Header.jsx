@@ -1,4 +1,5 @@
 import React from 'react'
+import { Busqueda } from '../../components/busqueda/Busqueda'
 
 export const Header = () => {
   return (
@@ -29,10 +30,7 @@ export const Header = () => {
             <a className="nav-link" href='http://localhost:3000/contacto' aria-disabled="true">Contacto</a>
           </li>
         </ul>
-        <form className="d-flex" role="search">
-          <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
-              <button className="btnBuscar btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+        <Busqueda/>
           </div>
         </div>
       </nav>
