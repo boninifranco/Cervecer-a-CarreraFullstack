@@ -1,8 +1,8 @@
 import React from "react";
 
-const Home=()=>{
+export const Home=()=>{
     return <div className='Home'>
-                    <div className="Header">Navegador Web</div>
+                    
                     <div className="BodyHome">
                         <div className="Contenedor">
                             <div className="PrimerCarrusel">

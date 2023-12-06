@@ -1,26 +1,27 @@
 import "./App.css";
+import "./pages/principal/Home.css";
+import "./shared/header/Header.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Inicio } from "./pages/principal/Home";
-import { Contacto } from "./pages/contacto/Contacto";
+import { Home } from "./pages/principal/Home";
 import { Header } from "./shared/header/Header";
-import { Footer } from "./shared/footer/Footer";
 import React from "react";
 
 
 function App() {
   return (
-    <>
-      <Header/>
-        <div className="App">
-          <BrowserRouter>
-            <Routes>
-              <Route path="/inicio" element={<Inicio></Inicio>}></Route>
-              <Route path="/contacto" element={<Contacto></Contacto>}></Route>
-            </Routes>
-          </BrowserRouter>
-        </div>
-      <Footer/>
-    </>
+    
+      <div className="App">
+        <BrowserRouter>
+          <Header />
+          <Routes>
+            <Route path="/inicio" element={<Home />} />
+           
+          </Routes>
+          
+        </BrowserRouter>
+      </div>
+      
+    
   );
 }
 
