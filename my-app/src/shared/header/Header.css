@@ -60,7 +60,7 @@ ul>li{
     justify-content: flex-end;
 }
 @media (max-width: 990px){
-    .agu{
+    .nav-superior{
         min-width: 10vw;
         width: 100vw;
         align-content: center;
