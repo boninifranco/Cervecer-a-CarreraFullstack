@@ -1,26 +1,24 @@
 import React from 'react';
-import "./CardComponent.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const CardComponent = (props) => {
-    const {cerveza, descripción, imagen } = props;
-
-    const handleDescripcion = (descripción) => {
-        console.log (`Mostrando descripción: ${descripción}`);
+export const Card = ({ cerveza, descripción, image}) => {
+    const handleDescripcion = () => {
+        console.log (`Mostrando descripción: ${descripción}`); 
     }
 
     const handleCompra = (cerveza) => {
-        console.log (`Comprando cerveza: ${cerveza}`);
+        console.log ('Comprando cerveza: ${cerveza}');
     };
 
     return (
         <div className="card">
-            <img src={imagen} alt={cerveza}/>
+            <img src={image} alt={cerveza}/>
             <h2>{cerveza}</h2>
             <p>{descripción}</p>
-            <button onClick={()=>handleDescripcion(descripción)}></button>
+            <button onClick={()=>handleDescripcion(descripción)}>Mostrar descripción</button> 
             <button onClick={()=>handleCompra(cerveza)}>Comprar</button>
         </div>
     );
 };
 
-export default CardComponent; 
+export default Card; 
