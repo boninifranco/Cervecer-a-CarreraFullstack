@@ -43,7 +43,7 @@ const SeccionCerveza = () => {
           key={index}
           name={cerveza.name} // cambiado {cerveza.name}
           descripction={cerveza.description ? "Completada" : "Pendiente"} 
-          image={cerveza.imagen}
+          image={cerveza.imagen }
         />
       ))}
     </div>
