@@ -1,7 +1,7 @@
-import React from 'react';
-import "./CardComponet.css";
+import React from 'react'
+import cardComponent from './cardComponent.css'
 
-const CardComponent = (props) => {
+export const CardComponent = (props) => {
     const {cerveza, descripción, imagen } = props;
 
     const handleDescripcion = (descripción) => {
