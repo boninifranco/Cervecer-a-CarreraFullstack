@@ -10,13 +10,13 @@ export const Carrusel = () => {
       <div id="carouselExample" className="carousel slide">
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={imagen1} className="d-block w-100" alt="..."></img>
+            <img src={imagen1} className="d-block w-100 img-cover" alt="..."></img>
           </div>
           <div className="carousel-item">
-            <img src={imagen2} className="d-block w-100" alt="..."></img>
+            <img src={imagen2} className="d-block w-100 img-cover" alt="..."></img>
           </div>
           <div className="carousel-item">
-            <img src={imagen3} className="d-block w-100" alt="..."></img>
+            <img src={imagen3} className="d-block w-100 img-cover" alt="..."></img>
           </div>
         </div>
         <button
