@@ -30,7 +30,10 @@ export const Header = () => {
             <a className="nav-link" href='http://localhost:3000/contacto' aria-disabled="true">Contacto</a>
           </li>
         </ul>
-        <Busqueda/>
+        <form className="d-flex" role="search">
+          <input className="form-control me-2" type="search" placeholder="Buscar" aria-label="Search"/>
+              <button className="btnBuscar btn btn-outline-success" type="submit">Buscar</button>
+            </form>
           </div>
         </div>
       </nav>
