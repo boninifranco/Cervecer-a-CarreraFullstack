@@ -1,0 +1,29 @@
+.ubicacion-horarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content:center ;
+    width: 50%;
+    height: 50%;
+}
+
+
+.logo-ubicacion{
+    display: flex;
+    width: 70px;
+    height: 60px;
+    object-fit: contain;
+    top: 1380px;
+    left: 200px;
+}
+
+
+img.logo-hora{
+    display: flex;
+    width: 70px;
+    height: 60px;
+    object-fit: contain;
+    top: 1380px;
+    left: 200px;
+}
