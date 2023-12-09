@@ -6,7 +6,7 @@
 .pnp.js
 
 #package
-/package-lock.json
+package-lock.json
 my-app/package-lock.json
 
 # testing
