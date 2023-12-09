@@ -1,4 +1,5 @@
 import React from 'react'
+import { Busqueda } from '../../components/busqueda/Busqueda'
 
 export const Header = () => {
   return (

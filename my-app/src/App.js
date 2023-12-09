@@ -4,6 +4,7 @@ import { Home } from "./pages/principal/Home";
 import { Contacto } from "./pages/contacto/Contacto";
 import { Header } from "./shared/header/Header";
 import { Footer } from "./shared/footer/Footer";
+import Nosotros from "./pages/nosotros/Nosotros";
 import "./App.css";
 import "./pages/principal/Home.css";
 import SeccionCerveza from "./sections/SeccionCerveza";

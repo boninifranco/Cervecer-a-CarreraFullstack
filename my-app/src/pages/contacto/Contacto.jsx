@@ -1,7 +1,7 @@
-import { InfoRedes } from "../../components/InfoRedes";
-import { Formulario } from "../../components/Formulario";
+import { InfoRedes } from "../../components/contacto/InfoRedes";
+import { Formulario } from "../../components/contacto/Formulario";
 import "./Contacto.css";
-import { Carrusel } from "../../components/Carrusel";
+import { Carrusel } from "../../components/contacto/Carrusel";
 
 export const Contacto = () => {
   return (
