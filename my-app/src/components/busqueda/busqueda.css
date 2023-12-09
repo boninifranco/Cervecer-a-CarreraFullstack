@@ -1,0 +1,7 @@
+.card-style{
+    width: 18rem;
+}
+.card-style .custom-card-img {
+    width: 100% !important;
+    height: auto !important;
+  }
