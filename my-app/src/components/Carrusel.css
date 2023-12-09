@@ -6,7 +6,7 @@
     .carousel{
         width:100%;
     }
-}  
+}
 @media (min-width: 800px) {
     img {
         object-fit: cover;

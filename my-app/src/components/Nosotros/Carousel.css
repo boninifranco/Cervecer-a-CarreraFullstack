@@ -1,8 +1,29 @@
 img {
-    object-fit: cover;
     height: 500px;
     width: 300px;
 }
 .carousel{
     width:100%;
+}
+
+.titulo-grande{
+    margin-top: 10%;
+}
+@media (max-width: 800px) {
+    img {
+        object-fit: cover;
+        height: 200px;
+    }
+    .carousel{
+        width:100%;
+    }
+}
+@media (min-width: 800px) {
+    img {
+        object-fit: cover;
+        height: 600px;
+    }
+    .carousel{
+        width:100%;
+    }
 }
