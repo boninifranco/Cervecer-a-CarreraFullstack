@@ -1,0 +1,10 @@
+@media (max-width: 800px) {
+  .search {
+    width: 15vw;
+  }
+}
+@media (max-width: 800px) {
+  .search {
+    width: 50vw;
+  }
+}
