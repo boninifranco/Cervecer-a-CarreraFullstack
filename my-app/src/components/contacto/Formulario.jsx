@@ -25,7 +25,7 @@ export const Formulario = () => {
     <>
       <form className="formulario" onSubmit={enviarDatos}>
         <div className="mb-3">
-          <label htmlFor="ingresoNombe" className="form-label">
+          <label htmlFor="ingresoNombe" className="form-label label-cs">
             Nombre
           </label>
           <input
@@ -38,7 +38,7 @@ export const Formulario = () => {
           ></input>
         </div>
         <div className="mb-3">
-          <label htmlFor="ingresoEmail" className="form-label">
+          <label htmlFor="ingresoEmail" className="form-label label-cs">
             Email
           </label>
           <input
@@ -51,7 +51,7 @@ export const Formulario = () => {
           ></input>
         </div>
         <div className="mb-3">
-          <label htmlFor="ingresoAsunto" className="form-label">
+          <label htmlFor="ingresoAsunto" className="form-label label-cs">
             Asunto
           </label>
           <input
@@ -64,13 +64,13 @@ export const Formulario = () => {
           ></input>
         </div>
         <div className="mb-3">
-          <label htmlFor="ingresoTexto" className="form-label">
+          <label htmlFor="ingresoTexto" className="form-label label-cs">
             Texto
           </label>
           <textarea
             name="texto"
             id="ingresoTexto"
-            className="form-control"
+            className="form-control textarea-cs"
             cols="30"
             rows="10"
             onChange={handleInputChange}

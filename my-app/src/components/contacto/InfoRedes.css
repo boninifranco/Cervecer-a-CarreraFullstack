@@ -1,6 +1,6 @@
 @media (max-width: 800px) {
-    body,html{
-        background-color: #505050;
+    .color-bg{
+        background-color: #232830;
         color: white;
     }
     .componentInfo{
@@ -16,8 +16,8 @@
     };
 }
 @media (min-width: 800px) {
-    body,html{
-        background-color: #505050;
+    .color-bg{
+        background-color: #232830;
         color: white;
     }
     .image-section{
@@ -33,8 +33,8 @@
         margin-right: 3em;
         padding-top: 8em;
     }
-    p{
-        padding: 0 7em 0 7em;
+    .paragraph{
+        padding: 0 4em 0 4em;
     }
 }
 .ul-container {
@@ -42,6 +42,10 @@
     justify-content: space-evenly;
     list-style: none
 }
-li{
+.li-container{
     margin: 5px;
+}
+
+.paragraph{
+    font-family: 'Barlow Condensed', sans-serif; font-size: 16px;
 }
