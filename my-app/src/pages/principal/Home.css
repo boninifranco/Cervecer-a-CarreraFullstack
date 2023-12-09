@@ -25,8 +25,8 @@ html{
 .Contenedor{
     display: flex;
     flex-direction: column;
-    background-color: aqua;
-    background-image: url('./img/d5db25c9e9f083706a7bfebb98239e93.jpg');
+    background-color: #232830;
+    /* background-image: url('./img/d5db25c9e9f083706a7bfebb98239e93.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-around;
@@ -38,7 +38,7 @@ html{
     background-color: black;
     color: white;
     width: 90%;
-    opacity: .7;
+    height: 90%;
     border-radius: 10px;
     box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
     -webkit-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
@@ -66,8 +66,8 @@ html{
     height: 40vh;
     margin: 0px auto;
     color: white;
-    width: 90%;
-    opacity: .9;
+    width: 60%;
+    /* opacity: .9; */
     box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
 -webkit-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
 -moz-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
@@ -81,3 +81,10 @@ html{
     bottom:0vh;
     width: 100%;
 }
+
+.video{
+    display: flex;
+
+}
+
+
