@@ -1,4 +1,6 @@
 import React from "react";
+import Carouselhome from "../../components/home/Carouselhome";
+import Videoilustrativo from "../../components/home/Videoilustrativo";
 
 export const Home=()=>{
     return <div className='Home'>
@@ -6,10 +8,10 @@ export const Home=()=>{
                     <div className="BodyHome">
                         <div className="Contenedor">
                             <div className="PrimerCarrusel">
-                                Carrusel
+                                <Carouselhome/>
                             </div>
                             <div className="VideoIlustrativo">
-                                Video
+                                <Videoilustrativo/>
                             </div>
                             <div className="ContenedorTarjetas">
                                 Contenedor de Tarjetas Dinamico
