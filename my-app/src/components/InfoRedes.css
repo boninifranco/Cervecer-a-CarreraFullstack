@@ -1,8 +1,46 @@
-body, html {
-    background-color: black;
-    color: white;
+@media (max-width: 800px) {
+    body,html{
+        background-color: #505050;
+        color: white;
+    }
+    .componentInfo{
+        margin: 2em;
+    } 
+    .image-section{
+        width: 100%;
+        height: auto;
+    };
+    .imgBox{
+        max-width: 42px;
+        min-width: 42px;
+    };
 }
-.componentInfo{
-    width: 50%;
-    height: 60%;
+@media (min-width: 800px) {
+    body,html{
+        background-color: #505050;
+        color: white;
+    }
+    .image-section{
+        width: 100%;
+        height: auto;
+    };
+    .imgBox{
+        max-width: 75px;
+        min-width: 75px;
+    };
+    .componentInfo {
+        margin-left: 3em;
+        margin-right: 3em;
+    }
+    p{
+        padding: 0 7em 0 7em;
+    }
+}
+.ul-container {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none
+}
+li{
+    margin: 5px;
 }

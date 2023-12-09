@@ -1,4 +1,8 @@
-import "./InfoRedes.css";
+import './InfoRedes.css'
+import instagram from "../assets/img/instagram.png";
+import whatsapp from "../assets/img/whatsapp.png";
+import mail from "../assets/img/mail.png";
+import ubicacion from "../assets/img/ubicacion.png";
 
 export const InfoRedes = () => {
   return (
@@ -10,11 +14,43 @@ export const InfoRedes = () => {
           pondremos en contacto con vos lo antes posible.
         </p>
         <div>
-          <ul>
-            <li>Instagram</li>
-            <li>Whatsapp</li>
-            <li>Mail</li>
-            <li>Ubicación del Local</li>
+          <ul className="ul-container">
+            <li className="imgBox">
+              <a
+                href="https://www.instagram.com/oktoberfest/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={instagram} alt="instagram" className="image-section"></img>
+              </a>
+            </li>
+            <li className="imgBox">
+              <a
+                href="https://wa.me/2222222222"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={whatsapp} alt="whatsapp" className="image-section"></img>
+              </a>
+            </li>
+            <li className="imgBox">
+              <a
+                href="mailto:stevejobs@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={mail} alt="mail" className="image-section"></img>
+              </a>
+            </li>
+            <li className="imgBox">
+              <a
+                href="https://maps.app.goo.gl/g9uCksnpwctGbfjNA"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={ubicacion} alt="ubicacion" className="image-section"></img>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
