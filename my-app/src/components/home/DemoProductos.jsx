@@ -1,15 +1,16 @@
 import React, { useState} from 'react';
 import { Card } from '../card/Card';
 import ApiCaller from '../busqueda/ApiCaller';
+import { Link } from 'react-router-dom';
 
 
 function DemoProductos() {
   const [productos, setProductos] = useState([]);
 
   return (
-    <>
+    <div className="demo">
       <ApiCaller setProductos={setProductos} />
-      <div className='card-container'>
+      <div className='card-secondContainer'>
         {productos.slice(0, 3).map((producto) => (
           <Card
             key={producto.id}
@@ -22,7 +23,8 @@ function DemoProductos() {
           />
         ))}
       </div>
-    </>
+      <button className="btn btn-outline-warning boton"><Link to="/productos">Ver más</Link></button>
+    </div>
   );
 }
 

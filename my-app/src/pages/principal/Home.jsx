@@ -17,7 +17,7 @@ const Home = () => {
                     <Videoilustrativo />
                 </div>
                 <div className="ContenedorTarjetas">
-                    Contenedor de Tarjetas Dinamico
+                    <DemoProductos/>
                 </div>
             </div>
         </div>
