@@ -1,0 +1,55 @@
+:root {
+    --dark: #232830;
+    --color-primario: #b35a1b;
+    --color-secundario: #BEA100;
+}
+
+.button-principal {
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dark);
+    background: var(--color-primario);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-secundario {
+    padding: 0px;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--color-primario);
+    background: var(--dark);
+    border: 3px solid var(--color-primario);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button-principal:hover{
+    transition: all 1s ease-out;
+    color: var(--color-primario);
+    background: var(--dark);
+    border: 2px solid var(--color-primario);
+}
+
+.button-secundario:hover{
+    transition: all 1s ease-out;
+    color: var(--dark);
+    background: var(--color-primario);
+}
+
+@media (max-width: 640px) {
+    .button-secundario{
+        margin-top: 150px;
+    }
+}
