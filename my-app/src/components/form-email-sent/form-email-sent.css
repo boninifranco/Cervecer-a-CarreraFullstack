@@ -1,0 +1,58 @@
+:root {
+    --dark: #232830;
+    --color-primario: #8b4513;
+    --color-secundario: #debc00;
+}
+
+.login-recovery-email-sent{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-container-recovery-email-sent{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+    justify-items: center;
+}
+
+.title-recovery-email-sent{
+    text-align: center;
+    font-size: 32px;
+    color: var(--color-primario);
+    margin-bottom: 24px;
+}
+
+.subtitle-recovery-email-sent{
+    text-align: center;
+    color: var(--color-primario);
+    margin-bottom: 24px;
+}
+
+.email-image img{
+    width: 62px;
+}
+
+.link-email-sent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.resend{
+    text-align: center;
+}
+
+.resend span{
+    color: var(--color-primario);
+}
+
+.resend a{
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.resend a:hover{
+    text-decoration: underline;
+}

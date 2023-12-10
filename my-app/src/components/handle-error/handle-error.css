@@ -1,0 +1,25 @@
+:root {
+    --dark: #232830;
+    --color-primario: #b35a1b;
+    --color-secundario: #bea100;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.message-error-active{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 2px #ff454e;
+    color: #ff454e;
+    border-radius: 8px;
+    text-align: center;
+    transition: all ease-in-out 1s;
+}
+
+.message-error{
+    display: none;
+}

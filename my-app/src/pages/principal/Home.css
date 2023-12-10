@@ -66,7 +66,7 @@ html{
     height: 40vh;
     margin: 0px auto;
     color: white;
-    width: 60%;
+    width: 80%;
     /* opacity: .9; */
     box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
 -webkit-box-shadow: 3px 8px 25px 5px rgba(167,160,160,0.56);
@@ -74,7 +74,6 @@ html{
     
 }
 .FooterHome{
-    
     background-color: green;
     position: static;
     height: 5vh;
@@ -82,13 +81,20 @@ html{
     width: 100%;
 }
 
-.video{
-    display: flex;
-
-}
 
 .demoProductos{
     display: flex;
 }
 
+
+@media (max-width: 800px) {
+    .VideoIlustrativo{
+    max-width: 100%;
+     display: flex;
+     width: 70%;
+     height: 60%;
+    }
+ }
+
+ 
 

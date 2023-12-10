@@ -1,0 +1,125 @@
+:root {
+    --dark: #232830;
+    --color-primario: #8b4513;
+    --color-secundario: #debc00;
+}
+
+body {
+    background-color: var(--dark);
+}
+
+.login {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 300px;
+}
+
+.logo-cerveceria {
+    width: 200px;
+    margin: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 8px;
+    color: var(--color-primario);
+}
+
+.input {
+    width: 296px;
+    height: 38px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: var(--color-primario);
+    border-radius: 8px;
+    padding: 0px;
+    padding-left: 4px;
+    background: none;
+    border: none;
+}
+
+input:focus {
+    outline: 2px solid var(--color-primario);
+}
+
+input[type="password"] {
+    font-size: 26px;
+}
+
+.form a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-primario);
+    text-align: center;
+}
+
+.form a:hover {
+    text-decoration: underline;
+}
+
+.container-image-login {
+    width: 100%;
+    display: none;
+}
+
+.container-image-login img {
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+
+.container-logo-astonbirra {
+    display: none;
+}
+
+.link-register {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 640px) {
+    .container-image-login {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .login {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .form-container {
+        width: 600px;
+        margin-right: 50px;
+    }
+
+    .input {
+        width: 100%;
+    }
+
+    .container-image-login{
+        display: block;
+    }
+
+    .container-logo-astonbirra{
+        display: flex;
+        margin-top: -150px;
+    }
+}
