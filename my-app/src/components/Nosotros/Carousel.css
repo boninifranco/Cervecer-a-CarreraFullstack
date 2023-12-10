@@ -4,10 +4,38 @@ img {
 }
 .carousel{
     width:100%;
+    margin-top: 50px;
 }
+.carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-color: #333;
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+  }
 
+  .carousel-control-prev-icon{
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-color: #333;
+    border-radius: 50%; 
+    border: 2px solid #fff;
+  }
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.604);
+    border-radius: 5px;
+    color: #fff;
+    padding: 0px;
+  }
+
+  .carousel-inner {
+    border-radius: 10px;
+  }
 .titulo-grande{
-    margin-top: 10%;
+    margin-top: 0%;
+    margin-bottom: 1%;
 }
 @media (max-width: 800px) {
     img {
