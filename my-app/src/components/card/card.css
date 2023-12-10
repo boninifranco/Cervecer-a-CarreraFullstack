@@ -1,0 +1,39 @@
+:root {
+    --dark: #232830;
+    --color-primario: #b35a1b;
+    --color-secundario: #bea100;
+}
+
+.product-card{
+  width: 300px;
+}
+
+.container-img{
+    width: 300px;
+}
+
+.container-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.container-info-cerveza{
+    display: flex;
+    column-gap: 28px;
+}
+
+.container-description{
+    width: 100%;
+}
+.container-name,
+.container-info-cerveza,
+.container-description {
+    margin-top: 10px;
+    font-weight: bold;
+    color: var(--color-primario);
+}
+
+.span-info{
+    font-weight: 300;
+}
