@@ -5,7 +5,7 @@ import Videoilustrativo from "../../components/home/Videoilustrativo";
 import { DemoProductos } from "../../components/home/DemoProductos";
 import './Home.css'
 
-export const Home = () => {
+const Home = () => {
     return <div className='Home'>
         <div className="Header">Navegador Web</div>
         <div className="BodyHome">
