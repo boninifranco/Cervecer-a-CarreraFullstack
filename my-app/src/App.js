@@ -1,13 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Home } from "./pages/principal/Home";
+import Nosotros from "./pages/nosotros/Nosotros";
+import { Productos} from "./pages/productos/Productos";
 import { Contacto } from "./pages/contacto/Contacto";
+import { Login } from './pages/login/Login';
+import { RecoveryPassword } from './pages/recovery-password/RecoveryPassword';
+import { Register } from './pages/register/Register';
 import { Header } from "./shared/header/Header";
 import { Footer } from "./shared/footer/Footer";
-import { Productos} from "./pages/productos/Productos";
-import Nosotros from "./pages/nosotros/Nosotros";
 import "./App.css";
-import "./pages/principal/Home.css";
 
 function App() {
   return (
