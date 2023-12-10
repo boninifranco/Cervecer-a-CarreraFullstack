@@ -23,8 +23,8 @@ html{
     color: black;
 }
 .Contenedor{
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     background-color: #232830;
     /* background-image: url('./img/d5db25c9e9f083706a7bfebb98239e93.jpg'); */
     background-repeat: no-repeat;
@@ -85,6 +85,10 @@ html{
 .video{
     display: flex;
 
+}
+
+.demoProductos{
+    display: flex;
 }
 
 
