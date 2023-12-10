@@ -17,3 +17,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+.search-div{
+  display: flex;
+  justify-content: center;
+  margin: 2em;
+}
