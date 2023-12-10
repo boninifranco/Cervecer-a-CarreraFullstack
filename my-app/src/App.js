@@ -7,7 +7,8 @@ import { Footer } from "./shared/footer/Footer";
 import Nosotros from "./pages/nosotros/Nosotros";
 import "./App.css";
 import "./pages/principal/Home.css";
-import SeccionCerveza from "./pages/productos/SeccionCerveza";
+import SeccionCerveza from "./sections/SeccionCerveza";
+
 
 function App() {
   return (
@@ -16,11 +17,9 @@ function App() {
         <div className="App">
           <BrowserRouter>
             <Routes>
-              <Route path="/Home" element={<Home></Home>}></Route>
-              <Route path="/Nosotros" element={<Nosotros></Nosotros>}></Route>
-              <Route path="/inicio" element={<Home></Home>}></Route>
-              <Route path="/contacto" element={<Contacto></Contacto>}></Route>
-              <Route path="/cerveza" element={<SeccionCerveza></SeccionCerveza>}></Route>
+              <Route path="/inicio" element={<Home/>}></Route>
+              <Route path="/contacto" element={<Contacto/>}></Route>
+              <Route path="/seccion-cerveza" element={<SeccionCerveza/>}></Route>
             </Routes>
           </BrowserRouter>
         </div>
