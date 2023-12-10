@@ -15,21 +15,21 @@ export default function Carousel() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active">
-      <img src={imagen1} className="d-block w-100" alt="..."/>
+      <img src={imagen1} className="d-block w-100 imagenCarrusel" alt="..."/>
       <div className="carousel-caption-nosotros d-none d-md-block">
         <h5 className='titulo-grande'>Esta imagen captura la esencia de una cervecería artesanal en pleno funcionamiento.</h5>
         <p></p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={imagen2} className="d-block w-100" alt="..."/>
+      <img src={imagen2} className="d-block w-100 imagenCarrusel" alt="..."/>
       <div className="carousel-caption-nosotros d-none d-md-block">
         <h5 className='titulo-grande'> Descubre nuestra exclusiva gama de cervezas artesanales, cuidadosamente elaboradas para satisfacer los paladares más exigentes.</h5>
         <p></p>
       </div>
     </div>
     <div className="carousel-item">
-      <img src={imagen3} className="d-block w-100" alt="..."/>
+      <img src={imagen3} className="d-block w-100 imagenCarrusel" alt="..."/>
       <div className="carousel-caption-nosotros d-none d-md-block">
         <h5 className='titulo-grande'>Sumérgete en el alma de nuestra operación, donde la creatividad y la destreza se entrelazan para dar vida a la magia cervecera.</h5>
         <p></p>
