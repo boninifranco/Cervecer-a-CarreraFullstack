@@ -1,6 +1,11 @@
 import React, { useState} from 'react';
 import { Card } from '../card/Card';
 import ApiCaller from '../busqueda/ApiCaller';
+<<<<<<< Updated upstream
+=======
+import { Link } from 'react-router-dom';
+import './demo.css'
+>>>>>>> Stashed changes
 
 
 function DemoProductos() {
