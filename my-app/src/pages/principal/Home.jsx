@@ -2,6 +2,8 @@ import React from "react";
 import './Home.css';
 import Carouselhome from "../../components/home/Carouselhome";
 import Videoilustrativo from "../../components/home/Videoilustrativo";
+import { DemoProductos } from "../../components/home/DemoProductos";
+import './Home.css'
 
 export const Home = () => {
     return <div className='Home'>
@@ -23,3 +25,4 @@ export const Home = () => {
 };
 
 export { Home }
+
