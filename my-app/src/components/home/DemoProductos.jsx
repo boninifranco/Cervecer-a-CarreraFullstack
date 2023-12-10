@@ -3,7 +3,6 @@ import { Card } from '../card/Card';
 import ApiCaller from '../busqueda/ApiCaller';
 import { Link } from 'react-router-dom';
 
-
 function DemoProductos() {
   const [productos, setProductos] = useState([]);
 
