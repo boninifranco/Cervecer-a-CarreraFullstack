@@ -2,6 +2,8 @@ img {
     height: 500px;
     width: 300px;
 }
+
+/* Componentes de carrusel */
 .carousel{
     width:100%;
     margin-top: 50px;
@@ -24,19 +26,29 @@ img {
     border: 2px solid #fff;
   }
   .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.604);
     border-radius: 5px;
     color: #fff;
     padding: 0px;
   }
+  .carousel-caption-nosotros{
+    background-color: rgba(0, 0, 0, 0.604);
+    border-radius: 5px;
+    color: #fff;
+    padding: 1px;
+  }
+  
 
   .carousel-inner {
     border-radius: 10px;
   }
+
+/* Titulo de carrusel */
 .titulo-grande{
     margin-top: 0%;
     margin-bottom: 1%;
+    
 }
+/* Medidas para diferentes dispositivos */
 @media (max-width: 800px) {
     img {
         object-fit: cover;
