@@ -1,0 +1,49 @@
+.container-modal{
+    position: absolute;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255, 255, 255, 0.4);
+    place-items: center;
+}
+
+.modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    width: 250px;
+    height: 200px;
+    box-shadow: 1px 1px 10px;
+}
+
+.modal span{
+    display: block;
+    margin-top: 2.2px;
+}
+
+.button-exit-modal{
+    cursor: pointer;
+    color: var(--color-primario);
+    font-weight: bold;
+    background: white;
+    border: 2px solid var(--color-primario);
+    border-radius: 6px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 25px;
+    height: 25px;
+}
+
+.button-exit-modal:active{
+    transform: scale(1.02);
+}
+
+.message-modal{
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-primario);
+}
