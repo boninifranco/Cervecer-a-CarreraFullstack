@@ -1,12 +1,12 @@
+/* Contenedor general */
 .ubicacion-container{
     display: flex;
     border-radius: 3px;
     padding: 5%;
     align-items: center;
-    /* justify-content: flex-end; */
 }
 
-
+/* Logo ubicacion  */
 .logo-ubicacion{
     display: flex;
     width: 70px;
@@ -16,6 +16,7 @@
     left: 200px;
 }
 
+/* Medida para diferentes dispotivios */
 @media (max-width: 800px) {
    .ubicacion-container{
     display: flex;

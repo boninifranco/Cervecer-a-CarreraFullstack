@@ -1,3 +1,4 @@
+/* contenedor de logos */
 .ubicacion-horarios{
     display: flex;
     flex-direction: column;
@@ -8,7 +9,7 @@
     height: 50%;
 }
 
-
+/* Logo ubicacion */
 .logo-ubicacion{
     display: flex;
     width: 70px;
@@ -18,8 +19,8 @@
     left: 200px;
 }
 
-
-img.logo-hora{
+/* Logo horario */
+.logo-hora{
     display: flex;
     width: 70px;
     height: 60px;
