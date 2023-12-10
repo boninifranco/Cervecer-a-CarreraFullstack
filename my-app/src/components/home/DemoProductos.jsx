@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import { Card } from '../card/Card';
 import ApiCaller from '../busqueda/ApiCaller';
 import { Link } from 'react-router-dom';
+import './demo.css'
 
 function DemoProductos() {
   const [productos, setProductos] = useState([]);
