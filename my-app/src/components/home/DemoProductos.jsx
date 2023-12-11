@@ -23,7 +23,7 @@ function DemoProductos() {
           />
         ))}
       </div>
-      <button className="btn btn-outline-warning boton"><Link to="/productos">Ver más</Link></button>
+      <button className="btn btn-outline-warning boton button-ver-mas"><Link to="/productos">Ver más</Link></button>
     </div>
   );
 }

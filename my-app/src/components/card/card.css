@@ -6,6 +6,9 @@
 
 .product-card{
   width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px black;
 }
 
 .container-img{
@@ -15,12 +18,12 @@
 .container-img img{
     width: 300px;
     height: 300px;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
 .container-info-cerveza{
     display: flex;
-    column-gap: 28px;
+    justify-content: space-around;
 }
 
 .container-description{
@@ -32,6 +35,11 @@
     margin-top: 10px;
     font-weight: bold;
     color: var(--color-primario);
+}
+
+.container-description,
+.container-name{
+    padding-left: 10px;
 }
 
 .span-info{

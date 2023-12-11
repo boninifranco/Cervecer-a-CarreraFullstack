@@ -1,3 +1,8 @@
+.button-ver-mas{
+  margin-top: 20px;
+}
+
+
 @media (min-width: 801px) {
     .card-secondContainer {
       width: 100%;

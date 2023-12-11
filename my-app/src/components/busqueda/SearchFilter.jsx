@@ -1,4 +1,5 @@
 import React from "react";
+import './search-filter.css'
 
 export const SearchFilter = ({ setSearch }) => {
   const handleSearch = (e) => {
@@ -12,6 +13,7 @@ export const SearchFilter = ({ setSearch }) => {
         placeholder="Buscar"
         aria-label="Search"
         onChange={handleSearch}
+        className="input input-search"
       />
     </div>
   );

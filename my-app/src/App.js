@@ -5,6 +5,7 @@ import Nosotros from "./pages/nosotros/Nosotros";
 import { Productos} from "./pages/productos/Productos";
 import { Contacto } from "./pages/contacto/Contacto";
 import { Login } from './pages/login/Login';
+import { Inventario } from './pages/invetario/Inventario';
 import { RecoveryPassword } from './pages/recovery-password/RecoveryPassword';
 import { Register } from './pages/register/Register';
 import { Header } from "./shared/header/Header";
@@ -24,6 +25,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/recovery-password" element={<RecoveryPassword />} />
           <Route path="/register" element={<Register />} />
+          <Route path="/inventario" element={<Inventario />} />
         </Routes>
         <Footer />
       </BrowserRouter>
