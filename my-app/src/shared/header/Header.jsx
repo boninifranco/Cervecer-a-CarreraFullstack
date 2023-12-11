@@ -48,13 +48,14 @@ export const Header = () => {
                 </Link>
               </li>
               <li className="nav-item">
-                <a
-                  className="nav-link"
-                  href="http://localhost:3000/contacto"
-                  aria-disabled="true"
-                >
+              <Link to="/contacto" className="nav-link" role="button">
                   Contacto
-                </a>
+                </Link>
+              </li>
+              <li className="nav-item">
+              <Link to="/login" className="nav-link" role="button">
+                  Inventario
+                </Link>
               </li>
             </ul>
           </div>

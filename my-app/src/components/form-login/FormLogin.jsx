@@ -43,7 +43,7 @@ function FormLogin() {
 
     function validatedLogin(user){
         if(datos.email === user.email && datos.password === user.password){
-            navigate('/');
+            navigate('/inventario');
         }else{
             setMessageError(true);
         }
