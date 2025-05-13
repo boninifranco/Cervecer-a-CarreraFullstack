@@ -1,0 +1,43 @@
+/*Responsive mobile*/
+@media (max-width: 800px) {
+  .formulario {
+    margin: 10px 10px 10px 10px;
+  }
+  /*Estilos textarea y label*/
+  .textarea-cs {
+    resize: none;
+    height: 15vh;
+  }
+  .label-cs {
+    display: flex;
+  }
+}
+/*Responsive escritorio*/
+@media (min-width: 800px) {
+  /*Formulario*/
+  .formulario {
+    height: 30em;
+    width: 50em;
+    margin: 3em 5em 3em 5em;
+  }
+  .textarea-cs {
+    resize: none;
+    height: 15vh;
+  }
+  .label-cs {
+    display: flex;
+  }
+}
+
+/*Boton*/
+.btn-outline-warning {
+  border-color: #b35a1b;
+  outline-color: #b35a1b;
+  color: #b35a1b;
+}
+.btn-outline-warning:hover {
+  background-color: #b35a1b;
+  border-color: #b35a1b;
+  outline-color: #b35a1b;
+  color: white;
+}

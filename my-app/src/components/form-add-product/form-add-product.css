@@ -1,0 +1,79 @@
+.form-add-product {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.form-add-product-active{
+    visibility: visible;
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 30px 10px;
+    width: 700px;
+    box-shadow: 1px 1px 10px black;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+
+.container-button-form-add-product {
+    width: 400px;
+    margin: auto;
+}
+
+.input-form-add-product {
+    width: 320px;
+}
+
+.button-principal-add-product-active,
+.button-secundario-add-product {
+    opacity: 0;
+}
+
+.button-principal-add-product,
+.button-secundario-add-product-active {
+    opacity: 1;
+    transition: all 3s ease;
+}
+
+.container-input-add-product-one,
+.container-input-add-product-two,
+.container-input-add-product-three {
+    display: flex;
+    column-gap: 30px;
+    margin-top: 50px;
+}
+
+.label-add-product {
+    display: flex;
+}
+
+@media (max-width: 640px) {
+    .form-add-product-active {
+        display: block;
+        margin: auto;
+        width: 300px;
+        margin-left: 0px;
+        padding: 0px;
+        box-shadow: none;
+    }
+
+    .container-input-add-product-one,
+    .container-input-add-product-two,
+    .container-input-add-product-three {
+        display: flex;
+        column-gap: 30px;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .input-form-add-product {
+        width: 300px;
+    }
+
+    .container-button-form-add-product {
+        margin: 0px 0px 20px 0px;
+        width: 300px;
+    }
+    .button-secundario-add-product-active{
+        margin-top: 25px;
+    }
+}

@@ -1,0 +1,37 @@
+.container-description-card-inventario {
+    height: 150px;
+}
+
+.container-buttons-delete-edit{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.button-delete,
+.button-editar{
+    bottom: 0px;
+    width: 75px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.button-delete{
+    background: var(--dark);
+    color: var(--color-primario);
+    box-shadow: 1px 1px 5px  var(--color-primario);
+    border: 1px solid var(--color-primario);
+}
+
+.button-editar{
+    background: var(--color-primario);
+    color: var(--dark);
+    box-shadow: 1px 1px 5px black;
+    border: 1px solid black;
+}
+
+@media (max-width: 640px){
+}

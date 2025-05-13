@@ -1,0 +1,92 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    
+    top: 0%;
+    margin-top: 0px;
+    width: 100%;
+    min-width: 100vh;
+    height: 5vh;
+}
+.ctnMenu{
+    right: 0px;
+    background-color: green;
+    margin-right: 20px;
+    height: 80vh;
+    opacity: .85;
+}
+.menu{
+    display: none;
+}
+ul>li{
+    display: inline-block;
+}
+.navPersonalizado{
+    height: fit-content;
+    width: 100%;
+    opacity: .88;
+    z-index: 1;
+}
+.posicionar{
+    margin-left: auto;
+}
+.logoNav{
+    width: 20px;
+    height: 20px;
+    background-image: url('./logo/logoWeb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    border-radius: 20%;
+    
+}
+@media (max-width: 720px){
+    .navbar-toggler{
+        margin-left: 70vw;
+    }
+    .ctnMenu{
+        width: 20vh;
+    }
+    .menu{
+        display: inline-block;
+        color: black;
+        right: 0px;
+        top: 0px;
+        height: fit-content;
+    }
+    .opcionMenu{
+        visibility: hidden;
+    } 
+    .menu:hover{
+        cursor: pointer;
+        visibility: visible;
+    }
+    .redirect{
+       
+        right: 0px;
+    
+        z-index: 0;
+    }
+   
+    .btnBuscar{
+        transform: scale(80%);
+    }
+    
+    .d-flex{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+    }
+    .navbar>.container,
+     .navbar>.container-fluid,
+      .navbar>.container-lg,
+       .navbar>.container-md,
+        .navbar>.container-sm,
+         .navbar>.container-xl, 
+         .navbar>.container-xxl
+         {
+        justify-content: flex-start;
+    }
+    
+}
+    

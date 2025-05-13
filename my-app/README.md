@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+Proyecto: Aston Birra
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Aston   Birra   es   una   página   web   dedicada   a   ofrecer   una
+experiencia única para los amantes de la cerveza. 
+Explora, degusta y aprende sobre una variada selección de
+cervezas artesanales. 
 
-## Available Scripts
+Con secciones como  "Productos",  "Nosotros"  y  "Contacto",
+invitamos a todos a descubrir la diversidad de cervezas que
+ofrecemos y a conocer más sobre nuestra cervecería.
 
-In the project directory, you can run:
+Requisitos Previos:
+Antes de ejecutar el proyecto, asegúrate de tener instalados
+los siguientes elementos:
+Navegador web moderno (Chrome, Firefox, Safari, etc.).
+Conexión a Internet estable.
 
-### `npm start`
+Funcionalidades Proyecto Aston Birra:
+Inventario: Muestra una sección de cervezas con tarjetas.
+Productos: Utiliza un estado para almacenar y mostrar
+datos   de   cervezas   (pueden   provenir   de   una   API)   y
+Renderiza tarjetas de cerveza dinámicamente.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CallerApi: Incluye lógica para obtener cervezas desde
+una API externa.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Contacto (src/pages/contacto/Contacto.jsx): Invita a los
+usuarios a completar un  formulario  para conocer más
+sobre los productos.
 
-### `npm test`
+Estructura del Proyecto:
+El proyecto se organiza en diferentes carpetas y archivos,
+siguiendo   una   estructura   modular   para   facilitar   el
+mantenimiento y escalabilidad. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Elementos de Interacción:
+Carrusel:
+En la sección Home, se utiliza un carrusel de imágenes para
+mostrar visualmente la variedad de productos.
 
-### `npm run build`
+Formulario de Contacto:
+En la sección Contacto, se invita a los usuarios a completar un
+formulario para obtener más información sobre los productos. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Redes Sociales y Botón de Enviar:
+En la parte inferior de la página, se encuentran los iconos de
+redes sociales y el formulario para que el usuario complete
+con un botón para enviar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Instrucciones para Ejecutar el Proyecto:
+1.Clona el repositorio:
+git   clone  https://github.com/boninifranco/Grupo3TP2  cd
+astonbirra
+2.Instala las dependencias:
+npm install 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3.Ejecuta la aplicación:
+npm start 
 
-### `npm run eject`
+4. Visita  http://localhost:3000/contacto  en   tu
+navegador para ver la página.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+¡Explorá,   Descubrí   y   Degustá   las
+Mejores   Cervezas   Artesanales   en
+Aston Birra!
