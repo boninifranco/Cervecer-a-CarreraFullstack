@@ -34,22 +34,12 @@ Antes de ejecutar el proyecto, asegurate de tener:
 
     🔗 Redes sociales: Íconos sociales en el footer para conectar con la comunidad.
 
-🗂️ Estructura del proyecto
-
-El proyecto sigue una estructura modular y organizada en carpetas:
-
-/src
- ├── assets/
- ├── components/
- ├── pages/
- ├── shared/
- └── App.js
 
 🛠️ Cómo ejecutar el proyecto
 
     📥 Cloná el repositorio:
 
-git clone https://github.com/boninifranco/Grupo3TP2
+git clone https://github.com/boninifranco/Cerveceria-CarreraFullstack
 cd astonbirra
 
     📦 Instalá las dependencias:
@@ -64,8 +54,3 @@ npm start
 
 http://localhost:3000
 
-Para ir directo a la sección de contacto:
-
-http://localhost:3000/contacto
-
-🍻 ¡Explorá, Descubrí y Degustá las Mejores Cervezas Artesanales en Aston Birra!
